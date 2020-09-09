@@ -3,17 +3,20 @@
 <html>
     <head>
         <title>Google</title>
-        <style>
+        <style> 
+            /* Style for images */
             .img-container{
                 position:relative;
                 top:200px;
                 text-align:center;
             }
+            /* Style for forms */
             .form-container{
                 position:relative;
                 top:200px;
                 text-align:center;
             }
+            /* Style for buttons */
             .button-container{
                 position:relative;
                 top:200px;
@@ -21,14 +24,17 @@
             }
         </style>
         <body>
+            <!-- Google image -->
             <div class="img-container">
                 <img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt="Google logo">
             </div>
+            <!-- Google text field-->
             <div class="form-container">
                 <form>
                     <input type="text" id="google_input" name="google_input"><br>
                 </form>
             </div>
+            <!-- Google buttons, regular and 'I'm feeling lucky'-button -->
             <div class="button-container">
                 <button type="button" onclick="alert('Searching!')">Google Search</button>
                 <button type="button" onclick="alert('Lucky search!')">I'm feeling lucky</button>

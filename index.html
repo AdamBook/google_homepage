@@ -22,8 +22,35 @@
                 top:200px;
                 text-align:center;
             }
+            /*Horizontal top navigation bar*/
+            ul{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+            li{
+                float: left;
+            }
+            li a{
+                display: block;
+                color: white;
+                text-align:center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover{
+                background-color: #111;
+            }
         </style>
         <body>
+            <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href=#news">News</a></li>
+                <li><a href=#contact>Contact</a></li>
+                <li><a href=#about">About</a></li>
+            </ul>
             <!-- Google image -->
             <div class="img-container">
                 <img src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png alt="Google logo">
